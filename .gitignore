@@ -11,6 +11,12 @@
 # production
 /build
 
+# editors
+.vscode/settings.json
+
+# server
+/api/db.json
+
 # misc
 .DS_Store
 .env.local

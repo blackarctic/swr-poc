@@ -1,0 +1,68 @@
+{
+  "orgs": [
+    {
+      "id": "64a70a4c-ba4a-4ae5-bf80-11150438b883",
+      "name": "Dunder Mifflin, Inc"
+    },
+    {
+      "id": "78222803-5c00-4a8f-812d-4007d398ee91",
+      "name": "Vance Refrigeration"
+    },
+    {
+      "id": "de890d68-561e-44e4-a960-6196ba63546c",
+      "name": "Disaster Kits Limited"
+    },
+    {
+      "id": "af4cbd28-d508-4c05-a01f-814ae0749fbd",
+      "name": "W.B. Jones Heating & Air"
+    },
+    {
+      "id": "96b703a3-c6f0-4ec2-8d52-85e93e2e148e",
+      "name": "Cress Tool & Dye"
+    }
+  ],
+  "things": [
+    {
+      "id": "f3753959-b551-4680-bfd2-16dcfadcb16e",
+      "placeId": "ea01b964-2ed9-44a0-8fe6-a6e9387a09ea",
+      "name": "Ryobi Circular Saw"
+    },
+    {
+      "id": "c1e13bbf-04c7-4012-8ea9-832a3135441b",
+      "placeId": "ea01b964-2ed9-44a0-8fe6-a6e9387a09ea",
+      "name": "Dewalt Table Saw"
+    },
+    {
+      "id": "dbbb5717-de2f-4449-8534-8e6cf4e355b8",
+      "placeId": "c588bc3b-230a-43ec-9d4b-64442fb408e7",
+      "name": "Ryobi Hand Sander"
+    }
+  ],
+  "places": [
+    {
+      "id": "ea01b964-2ed9-44a0-8fe6-a6e9387a09ea",
+      "orgId": "64a70a4c-ba4a-4ae5-bf80-11150438b883",
+      "name": "Chevy Van"
+    },
+    {
+      "id": "7e1f8cb0-d071-4a34-b9e5-962525888c87",
+      "orgId": "64a70a4c-ba4a-4ae5-bf80-11150438b883",
+      "name": "Ford Truck"
+    },
+    {
+      "id": "18a8d5ce-c1ac-44e6-a0f2-4c9166914a40",
+      "orgId": "64a70a4c-ba4a-4ae5-bf80-11150438b883",
+      "name": "Toyota Truck"
+    },
+    {
+      "id": "c588bc3b-230a-43ec-9d4b-64442fb408e7",
+      "orgId": "de890d68-561e-44e4-a960-6196ba63546c",
+      "name": "Primary Warehouse"
+    },
+    {
+      "id": "c1735ee67-9e48-46ef-b8a8-14d4106e0e96",
+      "orgId": "de890d68-561e-44e4-a960-6196ba63546c",
+      "name": "Secondary Warehouse"
+    }
+  ]
+}
