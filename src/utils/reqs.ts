@@ -74,7 +74,7 @@ export const putReq = async <Item extends { id: string; name: string }>({
         // Revert locally (optimistic UI)
         mutate(data, false);
         // Display feedback to the user
-        const cache = retrieveFromCacheMemoized(getFetchReqKey());
+        const cache: typeof data = retrieveFromCacheMemoized(getFetchReqKey());
         const original = (data || cache)?.find((x) => x.id === item.id);
         const message = original
           ? `Unable to update "${original.name}"`
@@ -121,7 +121,7 @@ export const deleteReq = async <Item extends { id: string; name: string }>({
         // Revert locally (optimistic UI)
         mutate(data, false);
         // Display feedback to the user
-        const cache = retrieveFromCacheMemoized(getFetchReqKey());
+        const cache: typeof data = retrieveFromCacheMemoized(getFetchReqKey());
         const original = (data || cache)?.find((x) => x.id === id);
         const message = original
           ? `Unable to remove "${original.name}"`
